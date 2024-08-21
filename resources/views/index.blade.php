@@ -44,8 +44,8 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="asset/theme/boldo/img/Logo.png" alt="" /></a>
+      <nav class="navbar py-1 navbar-expand-lg navbar-dark" style="background-color: black">
+        <div class="container"><a class="navbar-brand fs-4 fw-bold" href="index.html">KlikJitu.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white fs-3"></i></button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
@@ -57,7 +57,8 @@
           </div>
         </div>
       </nav>
-      <div class="bg-dark"><img class="img-fluid position-absolute end-0" src="asset/theme/boldo/img/hero/hero-bg.png" alt="" />
+      <div class="" style="background-color: black">
+        {{-- <img class="img-fluid position-absolute end-0" src="asset/theme/boldo/img/hero/hero-bg.png" alt="" /> --}}
 
 
         <!-- ============================================-->
@@ -67,16 +68,18 @@
           <div class="container">
             <div class="row align-items-center py-lg-8 py-6">
               <div class="col-lg-6 text-center text-lg-start">
-                <h1 class="text-white fs-5 fs-xl-6">Save time by building fast with Boldo Template</h1>
-                <p class="text-white py-lg-3 py-2">Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.</p>
+                <h1 class="text-white fs-5 fs-xl-6">Ciptakan Website Profesional dan Undangan Digital dengan KlikJitu.</h1>
+                <p class="text-white py-lg-3 py-2">Pembuatan Website dan Undangan Digital yang Menarik, Solusi Debugging Efektif, dan Hosting Aman untuk Bisnis Anda.</p>
                 <div class="d-sm-flex align-items-center gap-3">
-                  <button class="btn btn-success text-black mb-3 w-75">Buy Template</button>
-                  <button class="btn btn-outline-light mb-3 w-75">Explore</button>
+                  <button class="btn btn-success text-black mb-3 w-75">Make a contact</button>
+                  
                 </div>
               </div>
-              <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid" src="asset/theme/boldo/img/hero/hero-graphics.png" alt="" /></div>
+              {{-- <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0">
+                <img class="img-fluid" src="asset/theme/boldo/img/hero/hero-graphics.png" alt="" />
+              </div> --}}
             </div>
-            <div class="swiper">
+            {{-- <div class="swiper">
               <div class="swiper-container swiper-shadow swiper-theme" data-swiper='{"slidesPerView":2,"breakpoints":{"640":{"slidesPerView":2,"spaceBetween":20},"768":{"slidesPerView":4,"spaceBetween":40},"992":{"slidesPerView":5,"spaceBetween":40},"1024":{"slidesPerView":4,"spaceBetween":50},"1025":{"slidesPerView":6,"spaceBetween":50}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"freeMode":true,"autoplay":{"delay":2500,"disableOnInteraction":false}}'>
                 <div class="swiper-wrapper">
                   <div class="swiper-slide text-center"><img src="asset/theme/boldo/img/logos/boldo.png" alt="" /></div>
@@ -87,7 +90,7 @@
                   <div class="swiper-slide text-center"><img src="asset/theme/boldo/img/logos/presto.png" alt="" /></div>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
           <!-- end of .container-->
 
@@ -105,19 +108,15 @@
 
         <div class="container">
           <p class="text-center fs-1">Our Services</p>
-          <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Handshake infographic mass market crowdfunding iteration.</h2>
+          {{-- <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">Handshake infographic mass market crowdfunding iteration.</h2> --}}
           <div class="row gx-xl-7 mt-5">
-            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="asset/theme/boldo/img/services/1.png" alt="" />
-              <h4 class="mt-3 my-1">Cool feature title</h4>
-              <p class="fs-1 mb-0">Learning curve network effects return on investment.</p><a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <div class="col-md-6 mb-6 mb-md-0 text-center text-md-start"><img class="w-100 w-md-100" src="https://picsum.photos/id/7/200/100" alt="" />
+              <h4 class="mt-3 my-1">Pembuatan Website</h4>
+              <p class="fs-1 mb-0">Desain responsif dan fungsional yang disesuaikan dengan kebutuhan bisnis Anda.</p><a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a>
             </div>
-            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="asset/theme/boldo/img/services/2.png" alt="" />
-              <h4 class="mt-3 my-1">Even cooler feature</h4>
-              <p class="fs-1 mb-0">Learning curve network effects return on investment.</p><a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a>
-            </div>
-            <div class="col-md-4 mb-6 mb-md-0 text-center text-md-start"><img class="w-50 w-md-100" src="asset/theme/boldo/img/services/3.png" alt="" />
-              <h4 class="mt-3 my-1">Cool feature title</h4>
-              <p class="fs-1 mb-0">Learning curve network effects return on investment.</p><a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <div class="col-md-6 mb-6 mb-md-0 text-center text-md-start"><img class="w-100 w-md-100" src="https://picsum.photos/id/10/200/100" alt="" />
+              <h4 class="mt-3 my-1">Undangan Digital</h4>
+              <p class="fs-1 mb-0">Undangan kreatif dan interaktif untuk acara spesial Anda.</p><a class="text-dark fs-1 pb-2 fw-bold border-black border-bottom text-decoration-none" href="#">Explore page<i class="fa-solid fa-arrow-right ms-2"></i></a>
             </div>
           </div>
         </div>
@@ -132,17 +131,17 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section>
+      <section style="background-color: black">
 
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 text-center text-lg-start"><img class="img-fluid" src="asset/theme/boldo/img/offer/1.png" alt="" /></div>
             <div class="col-lg-6">
-              <h1 class="fs-xl-5 fs-lg-4 fs-3">We connect our customers with the best, and help them keep up-and stay open.</h1>
+              <h1 class="fs-xl-5 fs-lg-4 fs-3 text-white">We connect our customers with the best, and help them keep up-and stay open.</h1>
               <ul class="list-unstyled my-xl-5 my-3">
-                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>We connect our customers with the best.</span></li>
-                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Advisor success customer launch party.</span></li>
-                <li class="fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Business-to-consumer long tail.</span></li>
+                <li class="text-white fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>We connect our customers with the best.</span></li>
+                <li class="text-white fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Advisor success customer launch party.</span></li>
+                <li class="text-white fs-2 my-4 d-flex align-items-center gap-3 text-black"><i class="fa-solid fa-circle-check fs-4 text-dark"></i><span>Business-to-consumer long tail.</span></li>
               </ul>
               <button class="btn btn-dark">Start now</button>
             </div>
